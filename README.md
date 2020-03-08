@@ -19,14 +19,23 @@ see how well your display works.
 
 ## Usage
 
-See example video of Gameboy Advance SP AGS-001 recorded with 480 FPS
-[from YouTube](https://www.youtube.com/watch?v=Zwg9IndS9is).
-
-### Frame drop
-
 Install test ROM to your GBA. You need a flash cart or similar
 solution. Start the ROM and you should see vertical block going from
 left to right over and over again.
+
+### Examples
+
+Example video of Gameboy Advance SP with original AGS-001 display
+recorded with 480 FPS [from
+YouTube](https://www.youtube.com/watch?v=Zwg9IndS9is). Like all the
+original displays it shows the scanline pattern.
+
+[Here is a slow motion
+example](https://www.youtube.com/watch?v=GdLMmTVMPP0) of 3rd party IPS
+V2 display showing frame drops. IPS displays do not use scanline
+pattern but draw the entire screen at once.
+
+### Frame drop
 
 Take your phone and record the screen with the quickest slow motion
 video recording mode you can find. For example 240 or 480 FPS will do
@@ -38,15 +47,16 @@ if it sometimes jumps more which means you had a frame drop.
 
 ### Tearing
 
-You can also try see if the [screen is
-tearing](https://en.wikipedia.org/wiki/Screen_tearing).  It happens
+You can also test if the [screen is
+tearing](https://en.wikipedia.org/wiki/Screen_tearing). It happens
 when the display was still drawing the vertical block but the driver
-doesn't synchronize the process correctly. Visually it can be seen so
-that the block is not drawn fully before display prematurely jumps to
-drawing next frame.
+doesn't synchronize the process correctly and jumps to next
+frame. Visually it causes a vertical discontinuity in the image.
 
-Tearing is not to be confused with normal banding when watching slow
-motion footage since the display draws from top to bottom.
+Tearing is not to be confused with normal banding with original
+scanline displays (AGB-001, AGS-001, AGS-101) when watching slow
+motion footage since these displays draw line by line from top to
+bottom.
 
 ## Download
 
