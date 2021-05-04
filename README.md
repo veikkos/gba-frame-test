@@ -68,3 +68,8 @@ page](https://github.com/veikkos/gba-frame-test/releases).
 You need [devkitPro](https://devkitpro.org/) for GBA.
 
 See `build.sh`. 
+
+## Troubleshooting
+
+* *"Logo is corrupted and boot fails"*
+    * See issue and a solution at [Boot fail using Everdrive GBA](https://github.com/veikkos/gba-frame-test/issues/1)
